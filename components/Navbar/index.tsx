@@ -61,7 +61,7 @@ export function Navbar({ links }: NavbarProps) {
     );
   });
   return (
-    <Header height={HEADER_HEIGHT} mb={120} className={classes.root}>
+    <Header height={HEADER_HEIGHT} mb="xl" className={classes.root}>
       <Container>
         <div className={classes.inner}>
           <Link href="/">
